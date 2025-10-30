@@ -1,0 +1,395 @@
+/* main banner */
+.fashion-main img{
+    width: 100%;
+    height: 450px;
+}
+
+/* all things fashion & runway */
+.fashion {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start; 
+    flex-wrap: wrap; 
+    margin: 0 auto;
+}
+
+.fash-item {
+    flex: 1; 
+    max-width: calc(50% - 25px); 
+    text-align: center; 
+    margin: 0 12.5px 25px 0; 
+    box-sizing: border-box; 
+    padding-top: 8%;
+}
+
+.fash-item img {
+    max-width: 80%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: box-shadow 0.3s;
+  }
+  
+  .fash-item img:hover {
+    box-shadow: none; 
+  }
+
+
+.fash-item h3 {
+    color: black;
+    font-family: 'Cormorant Garamond', serif;
+    margin: 10px 0; 
+}
+
+.fash-item p {
+    font-family: 'Cormorant Garamond', serif;
+    margin: 10px 0; 
+    text-decoration: underline;
+}
+
+
+/* fashion news */
+.fash-section h1 {
+  width: 78%;
+  font-size: 50px;
+  font-family: 'Cormorant Garamond', serif;
+  transition: color 0.3s ease; 
+}
+
+.fash-section h1:hover {
+  color: #e1bbed; 
+}
+
+.fash-section{
+    text-align: center;
+}
+
+.fash-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* latest from runway styling */
+.container {
+    display: flex;
+    padding-top: 7%;
+}
+
+.everything-runway {
+  flex: 1;
+  background-color: black;
+  padding: 3%;
+  text-align: left;
+}
+
+.everything-runway-two{
+  flex: 1;
+  background-color: black;
+  padding-top: 10%;
+  text-align: left;
+}
+
+.everything-runway h1{
+  color: #F6DCFF;
+  font-size: 40px;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.media-container {
+  display: flex;
+  align-items: center;
+}
+
+.everything-runway img,
+.everything-runway-two img {
+  max-width: 20%; 
+  padding-top: 2%;
+  padding-bottom: 2%;
+  height: auto;
+  margin-right: 20px; 
+}
+
+.everything-runway p,
+.everything-runway-two p {
+  color: white;
+  font-size: 16px;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.everything-runway p:hover{
+  text-decoration: underline;
+}
+
+.everything-runway-two p:hover{
+  text-decoration: underline;
+}
+
+.everything-runway hr,
+.everything-runway-two hr {
+  border-top: 1px solid white;
+  width: 60%;
+  margin-left: 0;
+}
+
+
+/* all things entertainment */
+.run-title{
+    padding-top: 6%;
+    padding-left: 3%;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bolder;
+    font-size: 50px;
+    background-color: black;
+    margin: auto;
+    color: #F6DCFF;
+}
+
+.runway {
+    display: flex;
+    justify-content: left; 
+    align-items: flex-start; 
+    flex-wrap: wrap; 
+    margin: 0 auto;
+    background-color: black;
+    padding-left: 3%;
+  }
+  
+  .run-item {
+    max-width: 20%; 
+    text-align: center; 
+    margin: 0 50px 50px 0; 
+  } 
+  
+.run-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .run-item h3 {
+    padding-top: 5%;
+    color: #F6DCFF;
+    font-weight: bold;
+    font-family: 'Cormorant Garamond', serif;
+    margin: auto;
+    text-align: left;
+  }
+
+  .run-item p {
+    padding-bottom: 5%;
+    font-family: 'Cormorant Garamond', serif;
+    margin: 10px 0; 
+    text-decoration: underline;
+    color: white;
+    text-align: left;
+  }
+  
+/* all things entertainment */
+.style-title{
+    padding-left: 5%;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bolder;
+    font-size: 50px;
+    margin: auto;
+    color: black;
+}
+
+.celeb-style {
+    display: flex;
+    justify-content: left; 
+    align-items: flex-start; 
+    flex-wrap: wrap; 
+    margin: 0 auto;
+    padding-left: 5%;
+  }
+  
+  .style-item {
+    max-width: 25%; 
+    text-align: center; 
+    margin: 0 50px 50px 0; 
+  } 
+  
+.style-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .style-item h3 {
+    padding-top: 5%;
+    color: black;
+    font-weight: bold;
+    font-family: 'Cormorant Garamond', serif;
+    margin: auto;
+    text-align: left;
+  }
+
+  .style-item p {
+    padding-bottom: 5%;
+    font-family: 'Cormorant Garamond', serif;
+    margin: 10px 0; 
+    text-decoration: underline;
+    color: black;
+    text-align: left;
+  }
+
+/* adverts */
+.ad-divider-three {
+  padding-top: 2%;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  width: 900px; 
+  margin: 40px auto;
+}
+
+.ad-divider-three::before, .ad-divider-three::after {
+  flex: 1;
+  content: '';
+  padding: 0.5px;
+  background-color: grey;
+  margin: 2px auto;
+}
+
+.advert-three{
+    margin-bottom: 90px;
+    text-align: center;
+} 
+
+#advert-banner-three {
+  max-width: 50%; 
+  height: auto; 
+}
+
+
+
+/* Media queries for mobile responsiveness */
+@media screen and (max-width: 768px) {
+  /* Update styles for fashion-main */
+  .fashion-main img {
+      width: 100%;
+      height: auto;
+  }
+
+  /* Update styles for .fashion */
+  .fashion {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .fash-item {
+      flex: 1;
+      max-width: 100%;
+      text-align: center;
+      margin: 0 0 25px 0;
+      box-sizing: border-box;
+      padding-top: 8%;
+  }
+
+  .fash-item img {
+      max-width: 100%;
+      height: auto;
+      box-shadow: none;
+      transition: none;
+  }
+
+  /* Update styles for .fash-section */
+  .fash-section h1 {
+      font-size: 40px;
+      width: 100%;
+  }
+
+  .fash-section {
+      text-align: center;
+  }
+
+  .fash-section img {
+      max-width: 100%;
+      height: auto;
+  }
+
+  /* Update styles for .container, .movies, and .music */
+  .container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .movies,
+  .music {
+      flex: 1;
+      padding: 3% 0;
+  }
+
+  .movies h1,
+  .music h1 {
+      font-size: 30px;
+  }
+
+  .movies img,
+  .music img {
+      max-width: 40%;
+      margin: 0 auto 20px auto;
+  }
+
+  .movies p,
+  .music p {
+      font-size: 14px;
+  }
+
+  /* Update styles for .run-title */
+  .run-title {
+      padding-top: 6%;
+      padding-left: 0;
+      font-size: 40px;
+  }
+
+  /* Update styles for .runway and .run-item */
+  .runway {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .run-item {
+      max-width: 100%;
+      margin: 0 0 50px 0;
+  }
+
+  .run-item h3,
+  .run-item p {
+      text-align: center;
+  }
+
+  /* Update styles for .style-title, .celeb-style, and .style-item */
+  .style-title {
+      padding-left: 0;
+      font-size: 40px;
+  }
+
+  .celeb-style {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .style-item {
+      max-width: 100%;
+      margin: 0 0 50px 0;
+  }
+
+  .style-item h3,
+  .style-item p {
+      text-align: center;
+  }
+
+  /* Update styles for .ad-divider-three and .advert-three */
+  .ad-divider-three {
+      width: 100%;
+  }
+
+  .advert-three {
+      margin-bottom: 30px;
+  }
+
+  #advert-banner-three {
+      max-width: 100%;
+  }
+}

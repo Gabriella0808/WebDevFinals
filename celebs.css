@@ -1,0 +1,209 @@
+/* main banner */
+.celeb-main img{
+    width: 100%;
+    height: 450px;
+}
+
+/* main title */
+.title-1{
+    text-align: center;
+    margin-top: 8%;
+}
+
+.title-1 h1{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 50px;
+    width: 73%;
+}
+
+.title-1 img{
+    width: 80%;
+    border-color: grey;
+    border-width: 80%;
+}
+
+.title-1 p{
+    color: black;
+    font-size: 30px;
+    font-family: 'Cormorant Garamond', serif;
+    text-align: left;
+    margin-left: 10%;
+    text-decoration: underline;
+}
+
+/* celeb section */
+.section {
+    margin-top: 10%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    align-items: start;
+  }
+  
+  .beauty-news p {
+    color: white;
+    font-size: 20px;
+    text-align: center; 
+    margin: 0; 
+    padding: 2%;
+  }
+  
+  .beauty-news h1 {
+    color: white;
+    font-size: 30px;
+    font-family: 'Cormorant Garamond', serif;
+    margin: 0; 
+    padding-bottom: 2%;
+  }
+  
+  .beauty-news {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+  }
+  
+.beauty-news img{
+    max-width: 50%;
+} 
+
+
+/* music and movies styling */
+.container {
+    display: flex;
+}
+
+.movies,
+.music {
+  flex: 1;
+  background-color: black;
+  padding: 20px;
+  text-align: left;
+}
+
+.movies h1,
+.music h1 {
+  color: #F6DCFF;
+  text-decoration: underline;
+  font-size: 30px;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.media-container {
+  display: flex;
+  align-items: center;
+}
+
+.movies img,
+.music img {
+  max-width: 20%; 
+  padding-top: 2%;
+  padding-bottom: 2%;
+  height: auto;
+  margin-right: 20px; 
+}
+
+.movies p,
+.music p {
+  color: white;
+  font-size: 16px;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.movies p:hover{
+  text-decoration: underline;
+}
+
+.music p:hover{
+  text-decoration: underline;
+}
+
+.movies hr,
+.music hr {
+  border-top: 1px solid white;
+  width: 60%;
+  margin-left: 0;
+}
+
+/* all things entertainment */
+.ent-title{
+    padding-top: 3%;
+    padding-left: 7.5%;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.entertainment {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start; 
+    flex-wrap: wrap; 
+    margin: 0 auto;
+    padding-bottom: 5%;
+}
+  
+.ent-item {
+    max-width: 25%; 
+    text-align: center; 
+    margin: 0 50px 50px 0; 
+    background-color: rgb(226, 226, 226);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: box-shadow 0.3s;
+}
+
+.ent-item:hover {
+  box-shadow: none;
+}
+
+  
+.ent-item img {
+    max-width: 100%;
+    height: auto;
+}
+  
+.ent-item h3 {
+    padding-top: 5%;
+    color: black;
+    font-weight: bold;
+    font-family: 'Cormorant Garamond', serif;
+    margin: 10px 0; 
+}
+
+.ent-item p {
+    padding-bottom: 5%;
+    font-family: 'Cormorant Garamond', serif;
+    margin: 10px 0; 
+    text-decoration: underline;
+}
+
+/* adverts */
+.ad-divider-three {
+  padding-top: 2%;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  width: 900px; 
+  margin: 40px auto;
+}
+
+.ad-divider-three::before, .ad-divider-three::after {
+  flex: 1;
+  content: '';
+  padding: 0.5px;
+  background-color: grey;
+  margin: 2px auto;
+}
+
+.advert-three{
+    margin-bottom: 90px;
+    text-align: center;
+} 
+
+#advert-banner-three {
+  max-width: 50%; 
+  height: auto; 
+}
+  
+  
+

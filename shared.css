@@ -1,0 +1,163 @@
+/* main logo */
+#logo {
+    object-fit: contain;
+    height: 110px;
+    image-rendering: high-quality;
+}
+
+/* Nav Bar */
+nav {
+    padding: 5px;
+    background-color: black;
+    z-index: 100;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* navigation bar 'buttons' (links) */
+#navLinks {
+    font-family: 'Cormorant Garamond', serif;
+    list-style-type: none;
+    float: right;
+    display: inline-flex;
+    color: #f2f2f2;
+    text-align: center;
+    margin-right: 23px;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* Nav bar buttons - anything with a class id of buttonLink */
+.buttonLink {
+    position: relative;
+    color: white;
+    padding: 13px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    transition: all 0.2s ease-in-out;
+    border-radius: 3px;
+    font-size: 1.2rem;
+}
+
+.gap{
+    padding: 10%;
+    color: #F6DCFF;
+}
+
+/* background and style of the website body */
+body {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+  }
+
+/* subscribe button */
+#subscribe{
+    border-radius: 25px;
+    background: #F6DCFF;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 15px;
+    padding: 9px;
+    border-width: 0px;
+    margin-top: 8px;
+    color: black;
+    width: 150px;
+}
+
+.round-button{
+  border-radius: 25px;
+  background: #F6DCFF;
+  font-family: 'Cormorant Garamond', serif;
+  padding: 9px;
+  width: 200px;
+  border-width: 0px;
+  font-weight: bold;
+}
+
+.tab{
+  background-color: lightgrey;
+  height: 120px;
+  margin-top: -5px;
+}
+
+/* footer styling */
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Adjust spacing between logo, text, and links */
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.footer-container img {
+  max-width: 15%; /* Adjust the width as needed */
+  margin-right: 20px; /* Add spacing between the logo and text */
+}
+
+.useful-links {
+  display: flex;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.useful-links a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px; /* Add spacing between the links */
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.useful-links a:hover {
+  text-decoration: underline;
+}
+
+
+/* responsive styling */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+    cursor: pointer;
+  }
+
+  .menu-toggle .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+    transition: 0.4s;
+  }
+
+  .navbar.active #navLinks {
+    display: block;
+  }
+
+  #navLinks {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    position: absolute;
+    background-color: black;
+    top: 60px;
+    left: 0;
+    z-index: 1;
+  }
+
+  .navLink {
+    margin: 10px 0;
+  }
+}
+
+

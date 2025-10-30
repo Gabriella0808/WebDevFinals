@@ -1,0 +1,277 @@
+/* main banner */
+.lifestyle-main img{
+    width: 100%;
+    height: 450px;
+}
+
+/* banner styling */
+.home{
+    text-align: center;
+}
+
+.home img{
+    margin-top: 5%;
+    justify-content: center;
+    max-width: 80%;
+}
+
+.home h1{
+    color: black;
+    font-family: 'Cormorant Garamond', serif;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: -0.5%;
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+/* home essentials */
+.background-title{
+    margin-top: 5%;
+}
+
+.background-title h1{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 55px;
+    color: #F6DCFF;
+    background-color: black;
+    padding-top: 2%;
+    padding-left: 2%;
+    margin: 0%;
+    margin-bottom: -2%;
+}
+
+.lifestyle-change{
+    text-align: left;
+    background-color: black;
+}
+
+.lifestyle-change img{
+    margin-top: 5%;
+    max-width: 80%;
+    margin-left: 2%;
+}
+
+.lifestyle-change h2{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 35px;
+    color: white;
+    background-color: black;
+    margin: auto;
+    margin-left: 2%;
+    padding-bottom: 1%;
+    text-decoration: underline;
+}
+
+/* lifestyle and home decor */
+.lifestyle-inspired {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2%;
+    color: white; 
+    padding-top: 5%;
+}
+  
+.left-section,
+.right-section {
+    flex: 1;
+    max-width: 45%; 
+    padding-bottom: 2%;
+}
+  
+.image-container {
+    display: flex;
+    align-items: center;
+}
+  
+.lifestyle-inspired img {
+    max-width: 25%;
+    height: auto;
+    margin-right: 10px;
+}
+  
+.lifestyle-inspired p {
+    font-size: 19px;
+    margin: 0; 
+}
+  
+.lifestyle-inspired hr {
+    border-top: 1px solid white;
+    width: 70%;
+    margin: 20px 0; 
+}
+
+/* main video styling*/
+.video-section {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.video {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.video h1 {
+    color: black;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 0%;
+}
+
+.video a {
+    color: black;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 3%;
+}
+
+/* home videos */
+.small-videos {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start; 
+    flex-wrap: wrap; 
+    margin: 0 auto;
+    padding-left: 3%;
+}
+  
+.video-item {
+    max-width: 25%; 
+    text-align: center; 
+    margin: 0 80px 80px 0; 
+} 
+  
+.video-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.video-item p {
+    padding-bottom: 5%;
+    font-family: 'Cormorant Garamond', serif;
+    margin: 10px 0; 
+    text-decoration: underline;
+    color: black;
+    text-align: left;
+}
+
+/* bathroom title */
+.new-title h1{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 43px;
+    padding-left: 3%;
+    background-color: black;
+    color: #F6DCFF;
+    margin: auto;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    padding-left: 4%;
+}
+
+/* bathroom styling */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    justify-content: left;
+}
+
+.container :hover{
+    text-decoration: underline;
+}
+  
+.image-wrapper {
+    flex: 1;
+    max-width: 25%; 
+    text-align: center;
+    box-sizing: border-box;
+    padding-left: 3%;
+}
+  
+.image-wrapper img {
+    max-width: 100%;
+    height: auto;
+    padding-left: 5%;
+}
+
+.image-wrapper p{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 15px;
+    color: white;
+    text-align: left;
+    padding-left: 5%;
+    padding-bottom: 15%;
+}
+
+/* adverts */
+.ad-divider-five{
+    padding-top: 2%;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    width: 900px; 
+    margin: 40px auto;
+}
+  
+.ad-divider-five::before, .ad-divider-five::after{
+    flex: 1;
+    content: '';
+    padding: 0.5px;
+    background-color: grey;
+    margin: 2px auto;
+}
+  
+.advert-five{
+      margin-bottom: 90px;
+      text-align: center;
+} 
+  
+#advert-banner-five{
+    max-width: 50%; 
+    height: auto; 
+}
+
+/* architecture styling */
+.container-two {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    justify-content: left;
+    padding-top: 3%;
+}
+
+.container-two a {
+    color: white; 
+    text-decoration: none; 
+}
+
+.container-two a:hover {
+    text-decoration: underline; 
+}
+  
+.image-wrapper-two {
+    flex: 1;
+    max-width: 25%; 
+    text-align: center;
+    box-sizing: border-box;
+    padding-left: 3%;
+}
+  
+.image-wrapper-two img {
+    max-width: 100%;
+    height: auto;
+    padding-left: 5%;
+}
+
+.image-wrapper-two p{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 15px;
+    color: white;
+    text-align: left;
+    padding-left: 5%;
+    padding-bottom: 15%;
+}

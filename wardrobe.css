@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.magazine {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.essential-item {
+    width: 48%;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 0 0 10px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+strong {
+    font-weight: bold;
+}
+
+/* adverts */
+.ad-divider {
+    padding-top: 2%;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    width: 900px; 
+    margin: 40px auto;
+  }
+  
+  .ad-divider::before, .ad-divider::after {
+    flex: 1;
+    content: '';
+    padding: 0.5px;
+    background-color: grey;
+    margin: 2px auto;
+  }
+  
+  .advert{
+      margin-bottom: 90px;
+      text-align: center;
+  } 
+  
+  #advert-banner {
+    max-width: 50%; 
+    height: auto; 
+  }
+

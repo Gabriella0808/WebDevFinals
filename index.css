@@ -1,0 +1,374 @@
+/* home banner and main section */
+.main-banner {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 82%;         
+  max-width: none;
+  height: auto;
+  margin: 50px 0 25px;
+  text-align: center;
+}
+
+.main-banner img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.main-title h1{
+      text-align: left;
+      font-size: 70px;
+      font-family: 'Cormorant Garamond', serif;
+      margin-top: -20px;
+      margin-left: 2.8em;
+}
+
+.main-title p{
+      text-align: left;
+      font-size: 20px;
+      margin-top: -30px;
+      font-family: 'Cormorant Garamond', serif;
+      margin-left: 10em;
+}
+
+/* news section */
+.news-section{
+      margin-top: 10%;
+      background-color: black;
+}
+
+.news p{
+      color: white;
+      font-size: 20px;
+}
+
+.news h1{
+      color: white;
+      font-size: 30px;
+      font-family: 'Cormorant Garamond', serif;
+}
+
+.news-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.news {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+.news-section img{
+  max-width: 50%;
+}
+
+/* recipe of the month */
+.celeb-section h1{
+    padding-top: 40px;
+    font-size: 40px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.celeb-section{
+    text-align: center;
+}
+
+.celeb-section img {
+    max-width: 70%;
+    height: auto;
+}
+
+.celeb-section a{ 
+    font-size: 30px;
+    font-family: 'Cormorant Garamond', serif;
+    color: black;
+}
+
+/* fitness and other news */
+.left-news {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.news-two {
+    flex: 1;
+    padding-bottom: 20px;
+    margin-left: 100px;
+    text-align: left;
+}
+
+.news-two img{
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.news-two h1 {
+    font-size: 45px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+}
+
+.container {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-title {
+    width: 40%;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.news-three {
+    flex: 0.6;
+    padding: 5px;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.news-three .img {
+    width: 30%;
+    text-align: center;
+}
+
+.news-three .img img {
+    width: 100%;
+    height: auto;
+}
+
+.news-three .text-container {
+    flex: 1; 
+    font-size: 20px;
+    padding-left: 3%;
+    font-family: 'Cormorant Garamond', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.news-three hr {
+    width: 90%;
+    border-top: 1px solid black;
+    margin: 30px 0;
+}
+
+
+/* video */
+.video-section {
+    background-color: black;
+    margin-top: 5%;
+    text-align: center;
+  }
+
+.video {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+.video h1 {
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 0%;
+  }
+
+.video a {
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 3%;
+  }
+
+/* Updated CSS */
+.latest-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .latest {
+    display: inline-block; 
+    text-align: center;
+    width: 31.5%;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    padding-top: 7%;
+    margin: 0 10px; 
+  }
+  
+  .latest img {
+    display: block;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  
+  .latest a {
+    font-family: 'Cormorant Garamond', serif;
+    color: black;
+    font-size: 25px;
+    display: block;
+    margin-bottom: 90px;
+  }
+
+/* adverts */
+.ad-divider {
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  width: 900px; 
+  margin: 40px auto;
+  padding-top: 2%;
+}
+
+.ad-divider::before, .ad-divider::after {
+  flex: 1;
+  content: '';
+  padding: 0.5px;
+  background-color: grey;
+  margin: 2px auto;
+}
+
+.advert {
+  position: sticky;
+  top: 0;
+  z-index: 100; 
+}
+
+#advert-banner {
+  max-width: 50%;
+  height: auto;
+  margin-left: 25%;
+  padding-bottom: 25%;  
+}
+
+/* advert two */
+.ad-divider-two {
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  width: 900px; 
+  margin: 40px auto;
+}
+
+.ad-divider-two::before, .ad-divider-two::after {
+  flex: 1;
+  content: '';
+  padding: 0.5px;
+  background-color: grey;
+}
+
+#advert-banner-two {
+  max-width: 50%;
+  margin-left: 25%; 
+  padding-bottom: 7%; 
+}
+  
+
+/* Media queries for responsive design */
+@media screen and (max-width: 768px) {
+    .main-banner {
+        margin-top: 50px;
+        margin-bottom: 15px;
+    }
+
+    .main-title h1 {
+        font-size: 50px;
+        margin-left: 0.2em;
+    }
+
+    .main-title p {
+        font-size: 16px;
+        margin-left: 1em;
+    }
+
+    .news-section {
+        grid-template-columns: 1fr;
+    }
+
+    .celeb-section h1 {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+  
+    .celeb-section a {
+        font-size: 14px;
+    }
+
+    .left-news {
+        flex-direction: column;
+        align-items: center;
+      }
+  
+      .news-two {
+        margin-left: 0;
+        text-align: center;
+      }
+  
+      .news-two h1 {
+        font-size: 40px;
+      }
+  
+      .news-three {
+        padding: 0;
+      }
+  
+      .news-three .img {
+        margin-bottom: 10px;
+      }
+  
+      .news-three .image {
+        width: 90%;
+      }
+  
+      .news-three .text-container {
+        margin-left: 0;
+        text-align: center;
+      }
+  
+      .news-three hr {
+        margin: 10px auto;
+      }
+
+      .video-section {
+        margin-top: 80px;
+      }
+  
+      .video {
+        padding-top: 40px;
+        padding-bottom: 30px;
+      }
+  
+      .video h1 {
+        font-size: 30px;
+      }
+  
+      .video a {
+        font-size: 16px;
+      }
+  
+      iframe {
+        width: 450px;
+        height: 300px; 
+      }
+}
+
+
+
+
+
+
